@@ -16,9 +16,9 @@ def add_element_to_start_of_array(disney_characters, goofy)
   p disney_characters  
 end
 
-
-def remove_element_from_end_of_array(array)
-  
+def remove_element_from_end_of_array(disney_characters)
+  disney_characters.pop(goofy) 
+  p disney_characters
 end
 
 def remove_element_from_start_of_array(array)
