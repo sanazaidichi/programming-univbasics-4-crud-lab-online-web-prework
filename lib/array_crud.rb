@@ -1,12 +1,5 @@
 def create_an_empty_array
-create_an_empty_array = [ ]
-end
-
-def disney_characters
-  disney_characters = ["mickey mouse", "minnie mouse", "donald duck", "dahpne duck"]
-end
-  
-  
+disney_characters = [ ]
 end
 
 def add_element_to_end_of_array(array, element)
