@@ -34,17 +34,18 @@ p mickey_mouse
 end
 
 def retrieve_element_from_index(disney_characters, index_number)
-  
+  disney_characters [2]
 end
 
-def retrieve_first_element_from_array(array)
-  
+def retrieve_first_element_from_array(disney_characters)
+  disney_characters [0]
 end
 
-def retrieve_last_element_from_array(array)
-  
+def retrieve_last_element_from_array(disney_characters)
+  disney_characters[-1]
 end
 
-def update_element_from_index(array, index_number, element)
-
+def update_element_from_index(disney_characters, index_number, daphne duck)
+  disney_characters[3] = pluto
+  => "pluto"
 end
