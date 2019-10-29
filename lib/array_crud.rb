@@ -17,15 +17,23 @@ def add_element_to_start_of_array(disney_characters, goofy)
 end
 
 def remove_element_from_end_of_array(disney_characters)
-  disney_characters.pop(goofy) 
-  p disney_characters
-end
-
-def remove_element_from_start_of_array(array)
+  goofy_character = disney_characters.pop
   
+  p disney_characters
+  
+  goofy_character
 end
 
-def retrieve_element_from_index(array, index_number)
+def remove_element_from_start_of_array(disney_characters)
+mickey_mouse = disney_characters.shift
+
+p disney_characters
+
+p mickey_mouse
+ 
+end
+
+def retrieve_element_from_index(disney_characters, index_number)
   
 end
 
