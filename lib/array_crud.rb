@@ -17,11 +17,16 @@ def add_element_to_start_of_array(disney_characters, goofy)
 end
 
 def remove_element_from_end_of_array(disney_characters)
+<<<<<<< HEAD
   goofy_character = disney_characters.pop
   
   p disney_characters
   
   goofy_character
+=======
+  disney_characters.pop(goofy) 
+  p disney_characters
+>>>>>>> a05422349855c1b56afdeac3082f669a76f4a89d
 end
 
 def remove_element_from_start_of_array(disney_characters)
